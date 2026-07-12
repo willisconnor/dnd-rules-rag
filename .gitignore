@@ -216,3 +216,26 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+.env
+.env.local
+
+# Data (large / regeneratable — decide per-file below)
+data/srd-2014/raw/
+data/srd-2024/raw/
+*.faiss
+*.index
+
+# OS
+.DS_Store
+EOF
